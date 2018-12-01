@@ -17,7 +17,7 @@ After installing manjaro on my computer, I inserted my wifi-adapter adn connecte
 - Opened terminal
 - Updated my system with 
   `pacman -Syu`
-- Checked my internal wifi-card model with `inxi -Nxxz</code>. The output said that I have Broadcom BCM4360
+- Checked my internal wifi-card model with `inxi -Nxxz` The output said that I have Broadcom BCM4360
 - Checked my kernel version with `uname -a` it was version 4.14.
 - Installed the correct driver with `pacman -S broadcom-wl` and I chose the right one for my kernel version: `linux414-broadcom-wl-6.30.223.271-61`
 
