@@ -1,5 +1,5 @@
 theme: jekyll-theme-hacker
 
 #Url
-baseurl: ""
+baseurl: "/voloch.github.io"
 url: "https://voloch.github.io"
