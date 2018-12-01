@@ -3,6 +3,6 @@
 
 @import "{{ site.theme }}";
 
-.nav a{
+a {
 	color: #B4DE55;
 }
