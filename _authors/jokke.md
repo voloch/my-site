@@ -1,5 +1,0 @@
----
-name: Joni
-location: Finland
---- 
-
