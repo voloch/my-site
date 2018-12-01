@@ -2,6 +2,7 @@
 ---
 
 @import "{{ site.theme }}";
-a {
+.container a {
 	color: #B4DE55;
+	padding: 10px, 10px;
 }
