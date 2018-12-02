@@ -12,7 +12,7 @@ tags: [manjaro, linux, wifi, pacman]
 
 With new linux installation my macbook wifi doesn't work OOB. Luckily I have an usb wifi-adapter that works in most linux distros. Here's the steps that I did to get the internal wifi working:
 
-After installing manjaro on my computer, I inserted my wifi-adapter adn connected to my wifi network.
+After installing manjaro on my computer, I inserted my wifi-adapter and connected to my wifi network.
 
 - Opened terminal
 - Updated my system with 
