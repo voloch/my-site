@@ -1,3 +1,9 @@
+---
+title: Virtualbox installation on MacOS
+author: jokke
+categories: [macOS, virtualbox]
+tags: [macos, virtualbox, vm]
+
 # Virtualbox not working on macos
 
 When installing virtualbox to macOS, the installer won't finish without error. The virtualbox will be installed at the computer but it gives an error when trying to run vm:s.
