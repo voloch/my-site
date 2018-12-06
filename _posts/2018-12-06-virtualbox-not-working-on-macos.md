@@ -1,8 +1,9 @@
 ---
+layout: post
 title: Virtualbox installation on MacOS
-author: jokke
 categories: [macOS, virtualbox]
 tags: [macos, virtualbox, vm]
+---
 
 # Virtualbox not working on macos
 
