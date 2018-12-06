@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Jokke
 title: Virtualbox installation on MacOS
 categories: [macOS, virtualbox]
 tags: [macos, virtualbox, vm]
