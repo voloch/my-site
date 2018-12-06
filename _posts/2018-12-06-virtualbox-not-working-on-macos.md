@@ -18,9 +18,10 @@ To install virtualbox:
 1. Download the image for the virtualbox from: https://www.virtualbox.org/
 2. Run the installer and go trough the installation -> it exits with error.
 3. Go to System preferences -> security & privacy -> there should be a block notification for Oracle America, Inc -> click allow.
+![Security notification](/assets/virtualbox-error-allow.png)
+
 4. Run the installer again 
 5. It should work now!
 
-![Security notification](/assets/virtualbox-error-allow.png)
 
 
