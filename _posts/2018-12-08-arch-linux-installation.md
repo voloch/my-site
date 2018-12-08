@@ -46,7 +46,7 @@ Installed:
 	- After install needs to run `powertop --calibrate`
 	- Had to create powertop systemd service to: /etc/systemd/system/powertop.service
 
-`
+```
 [Unit]
 Description=Powertop tunings
 
@@ -56,7 +56,8 @@ ExecStart=/usr/bin/powertop --auto-tune
 
 [Install]
 WantedBy=multi-user.target
-`		 
+```		 
+
 	- Enable the service: 
 	`systemctl enable powertop.service`	 
 
