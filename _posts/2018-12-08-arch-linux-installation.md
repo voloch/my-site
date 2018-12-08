@@ -27,11 +27,11 @@ tags: [arch, linux, install, macbook]
 
 ## Time and Region
 
-	Europe/Helsinki
+Europe/Helsinki
 
 ## Locale
 	
-	Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying feature. My locale.conf: 
+Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying feature. My locale.conf: 
 
  
 `LANG=en_US.UTF-8` 		
