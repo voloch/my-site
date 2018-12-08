@@ -31,10 +31,9 @@ Europe/Helsinki
 
 ## Locale
 	
-Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying feature. My locale.conf: 
+Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying feature. I had to open /etc/locale.gen with vim, comment Finnish out and then uncomment en_US UTF8. After that I ran locale-gen.
 
  
-`LANG=en_US.UTF-8` 
 
 ## CPU & FAN control & Battery
 
