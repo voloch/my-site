@@ -38,14 +38,15 @@ Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying f
 
 ## CPU & FAN control & Battery
 
+I found a great blog that I used with my installation:[https://mchladek.me/post/arch-mbp/](https://mchladek.me/post/arch-mbp/) 
+
 Installed: 
 
 - Powertop:
 	- After install needs to run `powertop --calibrate`
-	- Had to create powertop systemd service: 
+	- Had to create powertop systemd service to: /etc/systemd/system/powertop.service
 
-`# /etc/systemd/system/powertop.service
-
+`
 [Unit]
 Description=Powertop tunings
 
