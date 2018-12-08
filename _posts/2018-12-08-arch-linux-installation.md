@@ -73,7 +73,7 @@ WantedBy=multi-user.target
 - Mbpfancontrol
 	- Installed from yay ("mbpfan")
 	- enable the service: 
-	`systemctl mbpfan.service` 
+	`systemctl enable mbpfan.service` 
 
 ## Software related issues:
 
