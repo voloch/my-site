@@ -36,6 +36,43 @@ Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying f
  
 `LANG=en_US.UTF-8` 
 
+## CPU & FAN control & Battery
+
+Installed: 
+
+- Powertop:
+	- After install needs to run `powertop --calibrate`
+	- Had to create powertop systemd service: 
+
+`# /etc/systemd/system/powertop.service
+
+[Unit]
+Description=Powertop tunings
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/powertop --auto-tune
+
+[Install]
+WantedBy=multi-user.target
+`		 
+	- Enable the service: 
+	`systemctl enable powertop.service`	 
+
+- Thermald: 
+	- installed from pacman ("thermald")
+	- enable the service:
+	`systemctl enable thermald.service`
+
+- Cpupower
+	- Installed from pacman ("cpupower")	 
+	- Config: /etc/default/cpupower
+
+- Mbpfancontrol
+	- Installed from yay ("mbpfan")
+	- enable the service: 
+	`systemctl mbpfan.service` 
+
 ## Software related issues:
 
 ### Steam
