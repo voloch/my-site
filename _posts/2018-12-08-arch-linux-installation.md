@@ -58,7 +58,7 @@ ExecStart=/usr/bin/powertop --auto-tune
 WantedBy=multi-user.target
 ```		 
 
-	- Enable the service: 
+- Enable the service: 
 	`systemctl enable powertop.service`	 
 
 - Thermald: 
