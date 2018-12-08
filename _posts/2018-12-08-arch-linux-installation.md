@@ -34,4 +34,10 @@ Europe/Helsinki
 Do not use FI locale! It turns parts of the terminal to Finnish. Very annoying feature. My locale.conf: 
 
  
-`LANG=en_US.UTF-8` 		
+`LANG=en_US.UTF-8` 
+
+## Software related issues:
+
+### Steam
+
+Enable multilib on /etc/pacman.conf, pacman -Syu -> pacman install steam
