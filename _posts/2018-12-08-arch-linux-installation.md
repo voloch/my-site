@@ -79,3 +79,17 @@ WantedBy=multi-user.target
 ### Steam
 
 Enable multilib on /etc/pacman.conf, pacman -Syu -> pacman install steam
+
+## Things for the user:
+
+### Image viewer
+
+Viewnior -> sudo pacman -S viewnior
+
+## Screenshot tool
+
+Flameshot -> sudo pacman -S flameshot
+
+I binded flameshot to:
+	- Full screen:  alt+shift+3 
+	- Gui:		alt+shift+4
