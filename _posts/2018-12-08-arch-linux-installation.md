@@ -80,13 +80,13 @@ WantedBy=multi-user.target
 
 Enable multilib on /etc/pacman.conf, pacman -Syu -> pacman install steam
 
-## Things for the user:
+## Tools for the user 
 
 ### Image viewer
 
 Viewnior -> sudo pacman -S viewnior
 
-## Screenshot tool
+### Screenshot tool
 
 Flameshot -> sudo pacman -S flameshot
 
